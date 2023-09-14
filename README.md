@@ -12,12 +12,14 @@ Input file
 
 Running CHANCE
 ===
-The CHANCE.sh script in ./script/ folder can be used to run a CHANCE. The syntax looks like: `bash CHANCE.sh <input_mutation_file> <input_oncotree_file>`
+The CHANCE.sh script in ./script/ folder can be used to run a CHANCE. The syntax looks like: 
+    `bash CHANCE.sh <input_mutation_file> <input_oncotree_file>`
 
 Examples
 ===
 To help you get up and running, a few simple examples are included in the `input_example` folder.
-To run a standard CHANCE experiment on a simple example network, run this command:`bash CHANCE.sh ../input_example/sample.maf.gz ../input_example/sample_oncotree.txt`
+To run a standard CHANCE experiment on a simple example network, run this command:
+    `bash CHANCE.sh ../input_example/sample.maf.gz ../input_example/sample_oncotree.txt`
 
 
 Require modules
