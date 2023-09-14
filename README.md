@@ -24,7 +24,7 @@ The CHANCE.sh script in ./script/ folder can be used to run a CHANCE. The syntax
 Examples
 ===
 To help you get up and running, a few simple examples are included in the `input_example` folder.
-To run a standard CHANCE experiment on a simple example network, run this command:
+To run a standard CHANCE experiment on a simple example, run this command:
 
     bash CHANCE.sh ../input_example/sample.maf.gz ../input_example/sample_oncotree.txt
 
