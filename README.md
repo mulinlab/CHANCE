@@ -1,3 +1,9 @@
+CHANCE
+===
+CHANCE is a machine-learning algorithm for repurposing non-oncology drugs to cancer treatment. It first builds a subnetwork to connected drug targets and patient-specific driver mutations (which are usually derived from whole-genome sequencing), then predicts the response of the patient to FDA approved non-oncology drugs by combining multiple evidences, such as pathogenic scores of mutations, network proximity between drug targets and driver genes, and specificity of drug-target interactions. The personalized prediction of CHANCE makes its result  interpretable and can accommodate genetic heterogeneity among different cancer patients. To run CHANCE, you only need to provide a file in MAF format which containing all mutations of one patient.  
+
+
+
 Required data for CHANCE
 ===
     All required data for running CHANCE can be downloaded from figshare with link https://figshare.com/, and the /data/ folder same as 
