@@ -24,7 +24,7 @@ To run a standard CHANCE experiment on a simple example network, run this comman
     bash CHANCE.sh ../input_example/sample.maf.gz ../input_example/sample_oncotree.txt
 
 
-Require modules
+Required modules
 ===
     Software: TransVar 2.4.1.20180815
 
