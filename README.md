@@ -6,7 +6,8 @@ CHANCE is a machine-learning algorithm for repurposing non-oncology drugs to can
 Required data for CHANCE
 ===
     All required data for running CHANCE can be downloaded from figshare with link https://figshare.com/, and the /data/ folder same as 
-
+    tar -zxvf data.tar.gz
+    
 Input file
 ===
     1. Mutation file
