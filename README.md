@@ -43,3 +43,4 @@ Required modules
         pandas: 1.1.3
         xgboost: 1.4.2
         pickle: 4.0
+        shap: 0.40.0
