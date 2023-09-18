@@ -12,10 +12,10 @@ Input file
 ===
 1. Mutation file
 
-The mutation file is MAF format and compressed, that including columns are: Chr start  end   ref    alt submitted_donor_id    gene  Variant_Classification  Amino_Acid_Change. The example of mutation file format is ./input_example/sample.maf.gz.
+    The mutation file is MAF format and compressed, that including columns are: Chr start  end   ref    alt submitted_donor_id    gene  Variant_Classification  Amino_Acid_Change. The example of mutation file format is ./input_example/sample.maf.gz.
 2. Oncotree file
 
-The oncotree file including columns are: submitted_donor_id	oncotree_detail_ID	oncotree_main_tissue. The example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_main_tissue was filled with oncotree_detail_ID.
+    The oncotree file including columns are: submitted_donor_id	oncotree_detail_ID	oncotree_main_tissue. The example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_main_tissue was filled with oncotree_detail_ID.
 
 
 Running CHANCE
