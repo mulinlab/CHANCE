@@ -38,11 +38,17 @@ Perl: v5.22.1
     
 R: 3.4.4
     dplyr
+    
     stringr
+    
     tibble
     
 Python: 3.8.5
+
     pandas: 1.1.3
+    
     xgboost: 1.4.2
+    
     pickle: 4.0
+    
     shap: 0.40.0
