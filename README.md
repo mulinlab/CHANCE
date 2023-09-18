@@ -15,7 +15,7 @@ Input file
    
 - Oncotree file
    
-    The oncotree file columns include submitted_donor_id, oncotree_detail_ID and oncotree_main_tissue. An example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_main_tissue was filled with oncotree_detail_ID.
+    The oncotree file columns include submitted_donor_id, oncotree_detail_ID and oncotree_main_tissue. An example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_detail_ID was filled with oncotree_main_tissue.
 
 
 Running CHANCE
