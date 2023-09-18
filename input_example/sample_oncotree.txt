@@ -1,3 +1,0 @@
-submitted_donor_id	oncotree_detail_ID	oncotree_main_tissue
-0206_CRUK_PC_0206	PRAD	Prostate
-ABC123	Prostate	Prostate
