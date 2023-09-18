@@ -5,17 +5,17 @@ CHANCE is a machine-learning algorithm for repurposing non-oncology drugs to can
 
 Required data for CHANCE
 ===
-All the required data for running CHANCE can be downloaded from figshare using the following link [https://figshare.com/ndownloader/files/42377139](https://figshare.com/ndownloader/files/42377139). After downloading, unzip the files using the command `tar -zxvf data.tar.gz`. Make sure to place the /data and /script directories in the same folder
+All the required data for running CHANCE can be downloaded from figshare using the following link https://figshare.com/ndownloader/files/42377139. After downloading, unzip the files using the command `tar -zxvf data.tar.gz`. Make sure to place the /data and /script directories in the same folder
     
 Input file
 ===
 - Mutation file
 
-    The mutation file is MAF format and compressed, that including columns are: Chr start  end   ref    alt submitted_donor_id    gene  Variant_Classification  Amino_Acid_Change. The example of mutation file format is ./input_example/sample.maf.gz.
+    The mutation file is MAF format and is compressed. Its columns include Chr, start, end, ref, alt submitted_donor_id, gene, Variant_Classification and Amino_Acid_Change. An example of mutation file format is ./input_example/sample.maf.gz.
    
 - Oncotree file
    
-    The oncotree file including columns are: submitted_donor_id	oncotree_detail_ID	oncotree_main_tissue. The example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_main_tissue was filled with oncotree_detail_ID.
+    The oncotree file columns include submitted_donor_id, oncotree_detail_ID and oncotree_main_tissue. An example of oncotree file is ./input_example/sample_oncotree.txt. The predictable oncotree list in ./data/Predictable_oncotree_term.xlsx. If the cancer type were mapped to oncotree_main_tissue, but can't map to oncotree_detail_ID, the oncotree_main_tissue was filled with oncotree_detail_ID.
 
 
 Running CHANCE
