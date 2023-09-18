@@ -11,11 +11,11 @@ Input file
 ===
 - Mutation file
 
-    The mutation file is MAF format and is compressed. Its columns include 'Chr', 'start', 'end', 'ref', 'alt', 'submitted_donor_id', 'gene', 'Variant_Classification', and 'Amino_Acid_Change'. An example of mutation file format is ./input_example/sample.maf.gz.
+    The mutation file is MAF format and is compressed. Its columns include 'Chr', 'start', 'end', 'ref', 'alt', 'submitted_donor_id', 'gene', 'Variant_Classification', and 'Amino_Acid_Change'. An example of mutation file format is `./input_example/sample.maf.gz`.
    
 - Oncotree file
    
-    The columns in the oncotree file include 'submitted_donor_id', 'oncotree_detail_ID', and 'oncotree_main_tissue'. An example of the oncotree file can be found at ./input_example/sample_oncotree.txt. The list of predictable oncotree terms is available in ./data/Predictable_oncotree_term.xlsx. In cases where the cancer type is mapped to 'oncotree_main_tissue' but cannot be mapped to 'oncotree_detail_ID', the 'oncotree_detail_ID' is filled with the value from 'oncotree_main_tissue'.
+    The columns in the oncotree file include 'submitted_donor_id', 'oncotree_detail_ID', and 'oncotree_main_tissue'. An example of the oncotree file can be found at `./input_example/sample_oncotree.txt`. The list of predictable oncotree terms is available in `./data/Predictable_oncotree_term.xlsx`. In cases where the cancer type is mapped to 'oncotree_main_tissue' but cannot be mapped to 'oncotree_detail_ID', the 'oncotree_detail_ID' is filled with the value from 'oncotree_main_tissue'.
 
 
 Running CHANCE
