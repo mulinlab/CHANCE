@@ -7,7 +7,7 @@ Required data for CHANCE
 ===
 All the required data for running CHANCE can be downloaded from figshare using the following link https://figshare.com/ndownloader/files/42377139. After downloading, unzip the files using the command `tar -zxvf data.tar.gz`. Make sure to place the `data` and `script` directories in the same folder
     
-Input file
+Input files
 ===
 - Mutation file
 
