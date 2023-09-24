@@ -29,9 +29,12 @@ Examples
 To help you get up and running, a few simple examples are included in the `input_example` folder.
 To run a standard CHANCE experiment on a simple example, run this command:
     git clone git@github.com:mulinlab/CHANCE.git
-    cd CHANCE/
-    wget -c https://figshare.com/ndownloader/files/42377139
     
+    cd CHANCE/
+    
+    wget -c https://figshare.com/ndownloader/files/42377139
+
+    tar -zxvf 42377139
     
     bash CHANCE.sh ../input_example/sample.maf.gz ../input_example/sample_oncotree.txt
 
