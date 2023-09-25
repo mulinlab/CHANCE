@@ -27,7 +27,7 @@ The `CHANCE.sh` script in the `script` folder can run a CHANCE. The syntax looks
 Examples
 ===
 To help you get up and running, a few simple examples are included in the `input_example` folder.
-To run a standard CHANCE experiment on a simple example, run this command:
+To run a standard CHANCE experiment on a simple example, run these commands:
 
     git clone git@github.com:mulinlab/CHANCE.git
     
