@@ -33,9 +33,9 @@ To run a standard CHANCE experiment on a simple example, run these commands:
     
     cd CHANCE
     
-    wget -c https://figshare.com/ndownloader/files/42377139
+    wget -c https://figshare.com/ndownloader/files/46529401
 
-    tar -zxvf 42377139
+    tar -zxvf 46529401
 
     cd script
     
